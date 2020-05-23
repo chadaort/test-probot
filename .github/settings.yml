@@ -1,8 +1,9 @@
 repository:
   description: description of repo
   private: true
-  has_issues: false
+  has_issues: true
   has_wiki: false
+  has_projects: false
   has_downloads: true
   # This should be changed once the repo has been configured
   default_branch: master
