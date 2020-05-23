@@ -1,0 +1,61 @@
+repository:
+  description: description of repo
+  private: true
+  has_issues: false
+  has_wiki: false
+  has_downloads: true
+  # This should be changed once the repo has been configured
+  default_branch: master
+  allow_squash_merge: true
+  # If we're squashing commits then this should be set to false
+  allow_merge_commit: true
+  allow_rebase_merge: false
+
+labels:
+  - name: failed
+    color: CC0000
+  - name: feature
+    color: 336699
+  - name: first-timers-only
+    # include the old name to rename and existing label
+    oldname: Help Wanted
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions:
+          users: []
+          teams: ['leads']
+      required_status_checks: null
+      enforce_admins: true
+      restrictions: null
+  - name: staging
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions:
+          users: []
+          teams: ['leads']
+      required_status_checks: null
+      enforce_admins: true
+      restrictions: null
+  - name: development
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions:
+          users: []
+          teams: ['leads']
+      required_status_checks: null
+      enforce_admins: true
+      restrictions: null
+
+
