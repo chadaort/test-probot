@@ -1,0 +1,17 @@
+snopes_development_flow:
+  config:
+    - require_squashed_commits
+  types:
+    - build
+    - ci
+    - docs
+    - fix
+    - feature
+    - style
+    - refactor
+    - performance
+    - test
+  scopes:
+    - component
+    - integration
+  
