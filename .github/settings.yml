@@ -1,5 +1,4 @@
 repository:
-  name: test-probot
   description: description of repo
   private: true
   has_issues: true
