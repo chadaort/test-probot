@@ -1,5 +1,5 @@
 snopes_development_flow:
-  repo_name: test-probot
+  # repo_name: test-probot
   config:
     - require_squashed_commits
   types:
