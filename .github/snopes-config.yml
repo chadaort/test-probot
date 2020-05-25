@@ -1,7 +1,9 @@
 snopes_development_flow:
-  # repo_name: test-probot
+  repo_name: test-probot
+  base_branch: staging
   config:
-    - require_squashed_commits
+    # - require_squashed_commits
+    - workflow_light
   types:
     - build
     - ci
