@@ -1,5 +1,7 @@
 repo_name: test-probot
 base_branch: staging
+env_branches:
+  - staging
 # alternatively it can be squashed_commits
 workflow: light
 types:
