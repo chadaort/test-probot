@@ -17,7 +17,7 @@ labels:
   # Build Labels (Do not change)
   - name: Build :white_check_mark:
     color: ff2500
-  - name: Build :red_circle:
+  - name: Build :x:
     color: 00cc11
 
   # PR Type Labels (Do not change or add any)
