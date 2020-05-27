@@ -15,9 +15,9 @@ repository:
 labels:
 
   # Build Labels (Do not change)
-  - name: Build :unverified:
+  - name: Build :white_check_mark:
     color: ff2500
-  - name: Build :verified:
+  - name: Build :red_circle:
     color: 00cc11
 
   # PR Type Labels (Do not change or add any)
