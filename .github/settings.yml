@@ -16,9 +16,9 @@ labels:
 
   # Build Labels (Do not change)
   - name: Build Passed
-    color: 00cc11
+    color: 7fbf7f
   - name: Build Failed
-    color: ff2500
+    color: ff6666
 
   # PR Type Labels (Do not change or add any)
   - name: Build
