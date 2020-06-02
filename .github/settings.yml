@@ -13,13 +13,41 @@ repository:
   allow_rebase_merge: false
 
 labels:
-  - name: failed
-    color: CC0000
-  - name: feature
-    color: 336699
-  - name: first-timers-only
-    # include the old name to rename and existing label
-    oldname: Help Wanted
+
+  # Build Labels (Do not change)
+  - name: Build Passed
+    color: 7fbf7f
+  - name: Build Failed
+    color: ff6666
+
+  # PR Type Labels (Do not change or add any)
+  - name: Build
+    color: ffba00
+  - name: CI
+    color: ffba00
+  - name: Docs
+    color: ffba00
+  - name: Fix
+    color: ffba00
+  - name: Feature
+    color: ffba00
+  - name: Style
+    color: ffba00
+  - name: Refactor
+    color: ffba00
+  - name: Performance
+    color: ffba00
+  - name: Test
+    color: ffba00
+
+  # Scope Default Labels
+  # Do not change the defaults but you can add additional ones, just use the same color
+  - name: Scope/Analytics
+    color: 00efff
+  - name: Scope/Plugin
+    color: 00efff
+  - name: Scope/Resource
+    color: 00efff
 
 branches:
   - name: master
