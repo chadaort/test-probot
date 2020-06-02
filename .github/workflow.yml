@@ -1,0 +1,8 @@
+_extends: workflow-bot-default-config
+ammend_commits: true
+branch_to_verify_task_status: master
+branch_to_verify_workflow: development
+verify_jira_status: true
+scopes:
+  - component
+  - integration
