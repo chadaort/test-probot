@@ -21,23 +21,23 @@ labels:
     color: ff6666
 
   # PR Type Labels (Do not change or add any)
-  - name: Build
+  - name: Type/Build
     color: ffba00
-  - name: CI
+  - name: Type/CI
     color: ffba00
-  - name: Docs
+  - name: Type/Docs
     color: ffba00
-  - name: Fix
+  - name: Type/Fix
     color: ffba00
-  - name: Feature
+  - name: Type/Feature
     color: ffba00
-  - name: Style
+  - name: Type/Style
     color: ffba00
-  - name: Refactor
+  - name: Type/Refactor
     color: ffba00
-  - name: Performance
+  - name: Type/Performance
     color: ffba00
-  - name: Test
+  - name: Type/Test
     color: ffba00
 
   # Scope Default Labels
