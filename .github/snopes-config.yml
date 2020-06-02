@@ -5,6 +5,8 @@ env_branches:
 # alternatively it can be squashed_commits
 workflow: light
 ammend_commits: true
+verify_jira_status: true
+branch_to_verify_task_status: master
 types:
   - build
   - ci
