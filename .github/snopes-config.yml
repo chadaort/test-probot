@@ -4,6 +4,7 @@ env_branches:
   - staging
 # alternatively it can be squashed_commits
 workflow: light
+ammend_commits: true
 types:
   - build
   - ci
