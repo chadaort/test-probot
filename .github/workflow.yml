@@ -1,4 +1,4 @@
-ammend_commits: true
+ammend_commits: false
 branch_to_verify_task_status: master
 branch_to_verify_workflow: development
 verify_jira_status: true
